@@ -12,8 +12,10 @@ import CognitoProvider from "next-auth/providers/cognito"
 // https://next-auth.js.org/configuration/options
 export const authOptions: NextAuthOptions = {
   debug: true,
+  secret: process.env.SECRECT,
   // https://next-auth.js.org/configuration/providers/oauth
   providers: [
+    
     /* EmailProvider({
          server: process.env.EMAIL_SERVER,
          from: process.env.EMAIL_FROM,
