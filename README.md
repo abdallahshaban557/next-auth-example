@@ -100,6 +100,10 @@ npm run start
 
 Follow the [Deployment documentation](https://next-auth.js.org/deployment)
 
+### 6 Checking bundle Size
+
+run `npm run analyze`
+
 ## Acknowledgements
 
 <a href="https://vercel.com?utm_source=nextauthjs&utm_campaign=oss">
