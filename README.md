@@ -81,7 +81,7 @@ For more information about setting up a database, please check out the following
 
 3. You can also choose to specify an SMTP server for passwordless sign in via email.
 
-### 4. Start the application
+### 4. Start the applications
 
 To run your site locally, use:
 
